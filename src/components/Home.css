@@ -1,0 +1,120 @@
+.Addtocart1{
+    position:absolute;
+    display: inline-block;
+    margin-top: 34%;
+    margin-left: 7.6%;
+    border-radius: 30px;
+    font-size: 75px;
+    background: linear-gradient(to bottom, #b32323 0%, #292727 100%);
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(31, 29, 29));
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 5px;
+    
+    
+}
+.price1{
+    position: absolute;
+    display: inline-block;
+    margin-top: 24%;
+    margin-left: 7.6%;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(41, 39, 39));
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+} 
+.name1{
+    position: absolute;
+    display: inline-block;
+    margin-top: 14%;
+    margin-left: 7.6%;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(41, 39, 39));
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+
+}
+.Addtocart2{
+    position:absolute;
+    display: inline-block;
+    margin-top: 25%;
+    margin-left: 7.6%;
+    border-radius: 30px;
+    font-size: 75px;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 107, 2));
+    
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 5px;
+    
+    
+}
+.price2{
+    position: absolute;
+    display: inline-block;
+    margin-top: 15%;
+    margin-left: 7.6%;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 107, 2));
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+} 
+.name2{
+    position: absolute;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 7.6%;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 107, 2));
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+
+}
+/* Define animation keyframes */
+@keyframes fadeIn {
+    0% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply animation to each heading tag with a delay */
+/* Define animation keyframes */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply animation to each heading tag with a delay */
+  .name1, .price1, .Addtocart1 {
+    opacity: 0; /* Initially hide elements */
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  .name1 {
+    animation-delay: 0.8s; /* Delay for the first element */
+  }
+  
+  .price1 {
+    animation-delay: 0.8s; /* Delay for the second element */
+  }
+  
+  .Addtocart1 {
+    animation-delay: 0.8s; /* Delay for the third element */
+  }
+  
+
+
+
